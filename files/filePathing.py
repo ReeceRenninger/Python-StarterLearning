@@ -1,5 +1,5 @@
 import os
-
+#! these file paths were set up for if you were utilizing python3 in Windows, if you are using linux or a subsytem of it, you will need to change the file paths to match your system. i.e. /home/<username>/<wherever you want to put the file>
 # os module allows you to work with files and directories on all operating systems
 os.path.join('usr', 'bin', 'spam') # returns 'usr\\bin\\spam' on windows and 'usr/bin/spam' on mac and linux
 
