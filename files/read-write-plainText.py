@@ -2,19 +2,19 @@
 
 # created a file.txt in my /home/<username> directory and wrote some text in it for this program to work
 # TODO: open function
-testfile = open('/home/reece/file.txt')
+testfile = open('/home/<username>/file.txt')
 content = testfile.read() # returns the contents of the file
 testfile.close() # closes the file #! good practice for larger files even though python will close it automatically
 print(content) # prints the contents of the file to terminal
 
 #TODO: readlines() method
-testfile = open('/home/reece/file.txt')
+testfile = open('/home/<username>/file.txt')
 content = testfile.readlines() # returns a LIST of strings of each line in the file
 testfile.close()
 print(content) # prints the contents of the file to terminal
 
 #TODO: write() method
-testfile = open('/home/reece/file.txt', 'w') # opens the file in write mode
+testfile = open('/home/<username>/file.txt', 'w') # opens the file in write mode
 testfile.write('I added this to the file using write mode, whhhhhhhaaaatttttt\n') # writes the string to the file, this overrides the previous contents of the file
 testfile.close()
 
@@ -24,7 +24,7 @@ testfile.close()
 # print(location)
 
 # TODO: append mode
-testfile = open('/home/reece/file.txt', 'a') # opens the file in append mode
+testfile = open('/home/<username>/file.txt', 'a') # opens the file in append mode
 append = testfile.write('I added this to the file using append mode, SO I DONT DELETE THE PREVIOUS CONTENTS\n') # writes to the file without overriding the previous contents
 testfile.close()
 print(append) 
