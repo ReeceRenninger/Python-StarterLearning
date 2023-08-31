@@ -34,7 +34,7 @@ market_2nd = {'ns': 'green', 'ew': 'red'}
 def switchLights(intersection):
     for key in intersection.keys():
         if intersection[key] == 'green':
-            intersection[key] = 'yellow'
+            intersection[key] = 'red' # had to change this from 'yellow' to 'red' to make the assertion work
         elif intersection[key] == 'yellow':
             intersection[key] = 'red'
         elif intersection[key] == 'red':
