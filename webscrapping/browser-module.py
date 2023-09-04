@@ -15,5 +15,5 @@ else:
 
 url = ('https://www.google.com/maps/place/' + address)
 
-webbrowser.open(url)
+webbrowser.open_new_tab(url)
 
