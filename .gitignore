@@ -3,6 +3,7 @@ __pycache__/
 
 # Ignore virtual environment
 venv/
+mapenv/
 
 # Ignore sensitive configuration files
 config.ini
