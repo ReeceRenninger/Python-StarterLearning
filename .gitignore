@@ -1,10 +1,11 @@
 # Ignore compiled Python files
 __pycache__/
 
-# Ignore virtual environment
+# Ignore virtual environment(s)
 venv/
 mapenv/
 browserenv/
+excelenv/
 
 # Ignore sensitive configuration files
 config.ini
