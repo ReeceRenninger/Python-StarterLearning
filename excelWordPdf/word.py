@@ -29,14 +29,14 @@ document.save('/home/reece/PracticeFiles/demo2.docx') # save changes to new file
 newDocument = docx.Document()
 newDocument.add_paragraph('Hello this is a paragraph')
 newDocument.add_paragraph('This is another paragraph')
-newDocument.save('/home/reece/PracticeFiles/demo3.docx')
+newDocument.save('/home/<username>/PracticeFiles/demo3.docx')
 
 
 # add run
 p = newDocument.paragraphs[0]
 p.add_run('This is a new run')
 p.runs[1].bold = True
-newDocument.save('/home/reece/PracticeFiles/demo4.docx')
+newDocument.save('/home/<username>/PracticeFiles/demo4.docx')
 
 # modify existing document
 def getText(filename):
@@ -46,4 +46,4 @@ def getText(filename):
         fullText.append(paragraphs.text) # append each paragraph to fullText list
     return '\n'.join(fullText) # join each paragraph with a new line
 
-print(getText('/home/reece/PracticeFiles/demo.docx')) # print all text in demo.docx
+print(getText('/home/<username>/PracticeFiles/demo.docx')) # print all text in demo.docx
