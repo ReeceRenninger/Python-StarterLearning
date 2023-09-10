@@ -26,16 +26,16 @@ print(pyautogui.position()) # returns a tuple of the mouse's current position
 pyautogui.displayMousePosition() # displays the mouse position in a pop up window
 
 # use the click() method to click the mouse
-pyautogui.click(339, 38) # click the mouse at the given coordinates
+# pyautogui.click(339, 38) # click the mouse at the given coordinates
 
-# use the rightClick() method to right click the mouse
-pyautogui.rightClick(339, 38) # right click the mouse at the given coordinates
+# # use the rightClick() method to right click the mouse
+# pyautogui.rightClick(339, 38) # right click the mouse at the given coordinates
 
-# use the doubleClick() method to double click the mouse
-pyautogui.doubleClick(339, 38) # double click the mouse at the given coordinates
+# # use the doubleClick() method to double click the mouse
+# pyautogui.doubleClick(339, 38) # double click the mouse at the given coordinates
 
-# use the dragTo() method to drag the mouse
-pyautogui.dragTo(339, 38, duration=2) # drag the mouse to the given coordinates over 2 seconds
+# # use the dragTo() method to drag the mouse
+# pyautogui.dragTo(339, 38, duration=2) # drag the mouse to the given coordinates over 2 seconds
 
-# use the dragRel() method to drag the mouse relative to its current position
-pyautogui.dragRel(200, 0, duration=2) # drag the mouse 200 pixels to the right of its current position over 2 seconds
+# # use the dragRel() method to drag the mouse relative to its current position
+# pyautogui.dragRel(200, 0, duration=2) # drag the mouse 200 pixels to the right of its current position over 2 seconds
